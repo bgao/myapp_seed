@@ -30,8 +30,6 @@ took ideas of [MEAN stack boilerplate](http://mean.io). It supports the latest v
     http://localhost:3000
 
 ## Credits
-[AngularJS-seed](https://github.com/angular/angular-seed)
-
-[MEAN stack boilerplate](http://mean.io)
-
-For more information on AngularJS please check out http://angularjs.org/
+* [AngularJS-seed](https://github.com/angular/angular-seed)
+* [MEAN stack boilerplate](http://mean.io)
+* For more information on AngularJS please check out http://angularjs.org/
