@@ -1,4 +1,7 @@
-# myapp-seed — the seed for apps using Mongoose.js, Express.js, AngularJS, Node.js (the MEAN stack), Passport.js and Twitter Bootstrap.
+# myapp-seed
+
+The seed for apps using Mongoose.js, Express.js, AngularJS, Node.js (the MEAN stack), Passport.js and Twitter Bootstrap.
+
 
 This project is an application skeleton for a typical web app using [Mongoose.js](http://mongoosejs.com/), 
 [Express.js](http://expressjs.com), [AngularJS](http://angularjs.org/), [Node.js](http://nodejs.org) 
@@ -28,5 +31,7 @@ took ideas of [MEAN stack boilerplate](http://mean.io). It supports the latest v
 
 ## Credits
 [AngularJS-seed](https://github.com/angular/angular-seed)
+
 [MEAN stack boilerplate](http://mean.io)
+
 For more information on AngularJS please check out http://angularjs.org/
