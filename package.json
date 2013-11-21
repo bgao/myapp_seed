@@ -1,0 +1,34 @@
+{
+  "name": "my_app",
+  "version": "0.0.1",
+  "private": false,
+  "author": "Bo Gao",
+  "repository": {
+    "type": "hg",
+    "url": "https://bertgao@bitbucket.org/bertgao/myapp_seed"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "*",
+    "jade": "*",
+    "underscore": "*",
+    "mongoose": "*",
+    "connect-mongo": "*",
+    "connect-flash": "*",
+    "passport": "*",
+    "passport-local": "*",
+    "passport-facebook": "*",
+    "passport-google-oauth": "*",
+    "grunt": "*",
+    "grunt-cli": "*"
+  },
+  "devDependencies": {
+    "phantomjs" : "~1.9",
+    "karma" : "~0.10",
+    "karma-junit-reporter" : "~0.1",
+    "karma-jasmine" : "~0.1",
+    "karma-ng-scenario" : "~0.1"
+  }
+}

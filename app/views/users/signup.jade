@@ -1,0 +1,30 @@
+extends auth
+
+block auth
+  form.form-horizontal(role="form", action="/users", method="post")
+    .form-group
+      label.control-label.col-sm-2(for='name') Full name
+      .col-sm-2
+        input#name.form-control(type='text', name="name", placeholder='Full name', value=user.name)
+
+    .form-group
+      label.control-label.col-sm-2(for='email') Email
+      .col-sm-2
+        input#email.form-control(type='text', name="email", placeholder='Email', value=user.email)
+
+    .form-group
+      label.control-label.col-sm-2(for='username') Username
+      .col-sm-2
+        input#username.form-control(type='text', name="username", placeholder='Username', value=user.username)
+
+    .form-group
+      label.control-label.col-sm-2(for='password') Password
+      .col-sm-2
+        input#password.form-control(type='password', name="password", placeholder='Password')
+
+    .form-group
+      .col-sm-offset-2.col-sm-2
+        button.btn.btn-primary(type='submit') Sign up
+        &nbsp;
+        | or&nbsp;
+        a.show-login(href="/signin") login

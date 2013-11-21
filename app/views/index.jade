@@ -1,0 +1,21 @@
+extends layout
+
+block body
+  navbar.navbar-default.navbar-fixed-top(role='navigation', ng-include="'views/header.html'")
+  h1= title
+  ul.menu
+    li
+      a(href='#/view1') view1
+    li
+      a(href='#/view2') view2
+
+  div(ng-view='ng-view')
+  script(type="text/javascript").
+    window.user = !{user};
+  div
+    | MyApp seed app: v
+    span(app-version='app-version')
+  //
+    In production use:
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js"></script>
+        

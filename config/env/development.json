@@ -1,0 +1,16 @@
+{
+  "db": "mongodb://localhost/myapp-dev",
+  "app": {
+    "name": "MyApp - Development"
+  },
+  "facebook": {
+    "clientID": "APP_ID",
+    "clientSecret": "APP_SECRET",
+    "callbackURL": "http://localhost:3000/auth/facebook/callback"
+  },
+  "google": {
+    "clientID": "APP_ID",
+    "clientSecret": "APP_SECRET",
+    "callbackURL": "http://localhost:3000/auth/google/callback"
+  }
+}
